@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Cabin+Condensed&family=Catamaran:wght@100&family=Courgette&family=Fira+Sans&family=Fredoka+One&family=Inter:wght@300&family=Leckerli+One&family=Montez&family=Pacifico&family=Philosopher&family=Poppins&family=Roboto+Condensed&family=Roboto:ital@0;1&family=Rubik&family=Signika+Negative:wght@300&family=Source+Sans+Pro&family=Ubuntu:wght@300;400&family=Varela+Round&family=Yanone+Kaffeesatz&display=swap');
+
+body {
+    font-family: 'Philosopher', sans-serif;
+    /* background-color: #16463e; */
+}
+
+.style{
+    /* background-color: #4db5ff; */
+    background-color:rgb(45, 16, 68);
+    border-radius: 0% 0% 100% 0%;
+    padding-bottom: 5rem;
+}
+
+.both {
+    display: flex;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.both .attendanceimg{
+    margin-top: 4rem;
+}
+
+.attendanceimg img{
+    width:75%;
+}
+
+.students {
+    padding: 4rem 0rem;
+    margin-top: 5rem;
+    width:70% ;
+    box-shadow: 0px 0px 30px 0px rgb(45, 16, 68);
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.students div {
+    margin: auto;
+}
+
+.student {
+    margin: auto;
+    width: 40rem;
+    /* border: 1px solid ; */
+    padding: 2.5rem 2rem;
+    margin-top: 10rem;
+    border-radius: .5rem;
+    /* margin-bottom:5rem ; */
+}
+
+.student div {
+    margin: auto;
+}
+
+.navbar {
+    background-color:rgb(45, 16, 68);
+    /* box-shadow: 0px 0px 10px -5px white; */
+}
+
+.navbar .container a {
+    color: white;
+}
+
+form {
+    margin: auto;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(45, 16, 68);
+    padding: .5rem 4rem;
+}
+
+.btn:hover {
+    color: white;
+    background-color: rgb(114, 84, 139);
+}
+
+.output {
+    background-color: rgb(45, 16, 68);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.output small {
+    color: white;
+    font-size: .7rem;
+}
+
+.footer_socials_MainPage {
+    text-align: center;
+    color: white;
+}
+
+.footer_socials_MainPage a {
+    padding: .5rem;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer_socials_MainPage a:hover {
+    color: #4db5ff;
+}
+
+.line {
+    padding-top: 3rem;
+    border-bottom: .001rem solid white;
+}
+
+
+.nav_item-list {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.nav_item-list li {
+    list-style-type: none;
+}
+
+.nav_item-list li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.nav_item-list li a:hover {
+    color: #4db5ff;
+}
+
+.show {
+    font-size: 1.5rem;
+}
+
+/* ==========================     nav        ============== */
+.navbar-brand{
+    font-size: 1.8rem;
+}
+
+.rightnav a{
+   padding: 1rem;
+   text-decoration:none;
+}
